@@ -1,7 +1,29 @@
 aid: hyperz
-name: hyperz
-description: hyperz is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyperz.png
+name: HYPERZ AI
+description: >-
+  HYPERZ AI is a generative-AI company focused on professional photography and
+  headshot generation, offering both consumer (B2C) and enterprise (B2B)
+  products. Its consumer tool, Business Photo AI (businessphoto.ai), turns
+  selfies into professional headshots with customizable poses, outfits, and
+  backgrounds. Its enterprise product, HYPERTURE (hyperture.ai), delivers
+  consistent, studio-grade headshots for teams with brand-consistency controls,
+  member approval workflows, and C2PA provenance verification. The company was
+  surfaced as a portfolio company of the venture firm qiming and added to the
+  API Evangelist network for enrichment. As of this pass it publishes no public
+  developer API, SDK, documentation, or /.well-known discovery surface — the
+  products are end-user applications rather than a developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/hyperz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Photography
+- Headshots
+- Image Generation
+- Creative Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hyperz-domain-security.yml
 - type: Website
-  url: https://hyperz.com
+  url: https://hyperz.ai
+- type: Product
+  name: Business Photo AI (B2C)
+  url: https://businessphoto.ai
+- type: Product
+  name: HYPERTURE (B2B)
+  url: https://hyperture.ai
+- type: SignUp
+  url: https://hyperture.ai/get-started
+- type: TermsOfService
+  url: https://hyperture.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://hyperture.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
