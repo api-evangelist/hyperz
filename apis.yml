@@ -51,7 +51,7 @@ tags:
 - Generative AI
 - Photography
 - Headshots
-- Image-Generation
+- Image Generation
 - Creative Tools
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Headshots
 - Image Generation
 - Creative Tools
+- Image-Generation
 apis: []
 maintainers:
 - FN: Kin Lane
